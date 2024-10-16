@@ -4,25 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39c73872-cc96-4222-a516-3fa4feeafcbe" name="Changes" comment="adding portal class">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/FW-Skeleton.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/AddProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/EHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/addingNewProduct/AddingProductStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/addingNewProduct/addNewProduct.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/editProduct/EditProductStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/editProduct/editProduct.feature" afterDir="false" />
+    <list default="true" id="39c73872-cc96-4222-a516-3fa4feeafcbe" name="Changes" comment="add new product and edit product automation">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/deleteProduct/DeleteProductStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/deleteProduct/deleteProduct.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/config/testing.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config/testing.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/browser/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/browser/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/platform/Ecommerce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/platform/Ecommerce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/FW-Skeleton.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/FW-Skeleton.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/AddProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/AddProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/EHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/EHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/HoolksHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/HoolksHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/login/LoginSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/login/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/editProduct/editProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/editProduct/editProduct.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +56,7 @@
       <recent name="C:\Users\Hendy\Desktop\FW_Skeleton\MyFrameWorkSkeleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Edit a product and verify it’s edited successfully">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Delete a product and verify it’s deleted successfully">
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/login/login.feature" />
@@ -95,6 +85,26 @@
       <option name="NAME_FILTER" value="^Add a new product and verify it\’s added successfully$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add a new product and verify it\’s added successfully$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Add a new product and verify it’s added successfully" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Delete a product and verify it’s deleted successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/deleteProduct/deleteProduct.feature" />
+      <option name="GLUE" value="com.hendy.skeleton.tests" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyFrameWorkSkeleton" />
+      <option name="NAME_FILTER" value="^Delete a product and verify it\’s deleted successfully$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Delete a product and verify it\’s deleted successfully$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Delete a product and verify it’s deleted successfully" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -143,48 +153,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFrameWorkSkeleton" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hendy.skeleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.hendy.skeleton" />
-      <option name="MAIN_CLASS_NAME" value="com.hendy.skeleton.TestRunner" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-BROWSERNAME=edge" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: login" />
       <item itemvalue="Cucumber Java.Scenario: Add a new product and verify it’s added successfully" />
+      <item itemvalue="Cucumber Java.Scenario: Delete a product and verify it’s deleted successfully" />
       <item itemvalue="Cucumber Java.Scenario: Edit a product and verify it’s edited successfully" />
       <item itemvalue="TestNG.TestRunner (1)" />
-      <item itemvalue="TestNG.TestRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Delete a product and verify it’s deleted successfully" />
         <item itemvalue="Cucumber Java.Scenario: Edit a product and verify it’s edited successfully" />
         <item itemvalue="Cucumber Java.Scenario: Add a new product and verify it’s added successfully" />
         <item itemvalue="TestNG.TestRunner (1)" />
         <item itemvalue="Cucumber Java.Feature: login" />
-        <item itemvalue="TestNG.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729055536426</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add new product and edit product automation">
+      <option name="closed" value="true" />
+      <created>1729092748472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729092748472</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +211,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding portal class" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding portal class" />
+    <MESSAGE value="add new product and edit product automation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new product and edit product automation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

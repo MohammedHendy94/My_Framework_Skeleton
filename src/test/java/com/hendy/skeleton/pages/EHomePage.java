@@ -15,6 +15,9 @@ public class EHomePage extends PageBase {
 
     private static By productsCards = By.xpath("//div[@class='sc-jXbUNg eZFFTp flex flex-col p-4']");
 
+    private static By deleteIcon = By.xpath("//button[@class='sc-cwHptR sc-jEACwC kKPVKI jdGkNS flex justify-center items-center h-9 w-9 transition ease-in-out delay-150 duration-300']");
+
+
 
     private By chooseEditButton (String prodTitle){
         prodTitle =prodTitle.replace(' ','-');
@@ -51,6 +54,11 @@ public class EHomePage extends PageBase {
         wait.until(ExpectedConditions.presenceOfElementLocated(chooseEditButton(prodTitle)));
         find(chooseEditButton(prodTitle)).click();
         return new AddProductPage();
+    }
+
+    public void clickDeleteProduct(){
+        wait.until(ExpectedConditions.presenceOfElementLocated(deleteIcon));
+        find(deleteIcon).click();
     }
 
 

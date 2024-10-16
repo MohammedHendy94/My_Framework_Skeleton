@@ -19,7 +19,6 @@ public class AddProductPage extends PageBase{
 
 
     public void fillTitleTextBox(String title){
-        wait.until(ExpectedConditions.elementToBeClickable(titleTextBox));
         find(titleTextBox).sendKeys(Keys.CONTROL + "a");
         find(titleTextBox).sendKeys(Keys.DELETE);
         find(titleTextBox).sendKeys(title);

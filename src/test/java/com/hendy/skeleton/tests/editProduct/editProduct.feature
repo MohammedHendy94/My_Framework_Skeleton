@@ -13,4 +13,4 @@ Feature: Editing a product Functionality
 
     Examples:
       |title               |newTitle         | description                                                       |price   |
-      |ipohone11 pro max   |iphone17 pro max | The Apple iPhone 17 Pro Max will be available for about EGP 19400  |150     |
+      |honey money   |gooo daddy | new product for tesing edit product |150     |
