@@ -4,28 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39c73872-cc96-4222-a516-3fa4feeafcbe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/config/testing.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeletonJenkinsFile.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/ReadProperties/ReadPropertis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/browser/Browser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/driver/DriverSingleTon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/PageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/HoolksHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/login/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/login/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/utilities/extent_report/extent-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/utilities/extent_report/extent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/utilities/extent_report/extent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="39c73872-cc96-4222-a516-3fa4feeafcbe" name="Changes" comment="adding portal class">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/FW-Skeleton.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/AddProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/EHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/addingNewProduct/AddingProductStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/addingNewProduct/addNewProduct.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/editProduct/EditProductStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/editProduct/editProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/config/testing.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config/testing.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/browser/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/browser/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/platform/Ecommerce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/platform/Ecommerce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/HoolksHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/HoolksHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/login/LoginSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/login/login.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -51,33 +53,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Hendy/Desktop/FW_Skeleton/MyFrameWorkSkeleton/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "digitinary__",
+    "onboarding.tips.debug.path": "C:/Users/Hendy/Desktop/FW_Skeleton/MyFrameWorkSkeleton/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Hendy\Desktop\FW_Skeleton\MyFrameWorkSkeleton" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestRunner">
-    <configuration name="Scenario: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+  <component name="RunManager" selected="Cucumber Java.Scenario: Edit a product and verify it’s edited successfully">
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/login/login.feature" />
-      <option name="GLUE" value="com/hendy/skeleton/tests" />
+      <option name="GLUE" value="com.hendy.skeleton.tests" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MyFrameWorkSkeleton" />
-      <option name="NAME_FILTER" value="^login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^login$&quot;" />
-      <shortenClasspath name="MANIFEST" />
-      <option name="SUGGESTED_NAME" value="Scenario: login" />
-      <option name="VM_PARAMETERS" value="-BROWSERNAME=edge" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -85,6 +82,63 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Add a new product and verify it’s added successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/addingNewProduct/addNewProduct.feature" />
+      <option name="GLUE" value="com.hendy.skeleton.tests" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyFrameWorkSkeleton" />
+      <option name="NAME_FILTER" value="^Add a new product and verify it\’s added successfully$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add a new product and verify it\’s added successfully$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add a new product and verify it’s added successfully" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Edit a product and verify it’s edited successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/hendy/skeleton/tests/editProduct/editProduct.feature" />
+      <option name="GLUE" value="com.hendy.skeleton.tests" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyFrameWorkSkeleton" />
+      <option name="NAME_FILTER" value="^Edit a product and verify it\’s edited successfully$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Edit a product and verify it\’s edited successfully$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Edit a product and verify it’s edited successfully" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFrameWorkSkeleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hendy.skeleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hendy.skeleton" />
+      <option name="MAIN_CLASS_NAME" value="com.hendy.skeleton.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,13 +172,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: login" />
+      <item itemvalue="Cucumber Java.Feature: login" />
+      <item itemvalue="Cucumber Java.Scenario: Add a new product and verify it’s added successfully" />
+      <item itemvalue="Cucumber Java.Scenario: Edit a product and verify it’s edited successfully" />
+      <item itemvalue="TestNG.TestRunner (1)" />
       <item itemvalue="TestNG.TestRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Edit a product and verify it’s edited successfully" />
+        <item itemvalue="Cucumber Java.Scenario: Add a new product and verify it’s added successfully" />
+        <item itemvalue="TestNG.TestRunner (1)" />
+        <item itemvalue="Cucumber Java.Feature: login" />
         <item itemvalue="TestNG.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: login" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +197,15 @@
       <option name="presentableId" value="Default" />
       <updated>1694258328451</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding portal class">
+      <option name="closed" value="true" />
+      <created>1729055536426</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729055536426</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +218,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding portal class" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding portal class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

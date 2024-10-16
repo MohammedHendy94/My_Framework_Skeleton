@@ -8,6 +8,6 @@ public class HomePage extends PageBase {
 
    private static By loginbt = By.xpath("//a[@class='ico-login']");
 
-    public void clickLogin(){find(loginbt).click();}
+    //public void clickLogin(){find(loginbt).click();}
 
 }

@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = "src/test/java/com/hendy/skeleton/tests",
         glue = "com/hendy/skeleton/tests",
-        tags="@reg",
+        tags="@regression",
         plugin = {"html:reports/FW-Skeleton.html"}
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
